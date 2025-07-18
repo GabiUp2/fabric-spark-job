@@ -8,7 +8,7 @@ import argparse
 import sys
 import logging
 from pyspark.sql import SparkSession
-from .job_runner import SparkJobRunner
+from spark_job.job_runner import SparkJobRunner
 
 # Configure logging
 logging.basicConfig(
